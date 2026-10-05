@@ -47,8 +47,10 @@ your level and class, and what you expected helps a lot.
 All rights reserved. Copyright (c) 2026 Rockjaw Bonesnapper Co. See [LICENSE](LICENSE) for the full
 terms, which are short. You may download, install, run and read Jettison, and modify your own copy
 for your own use. Anything else, such as uploading it elsewhere or publishing a modified version,
-needs written permission first. When the compiled item data ships, `Jettison_Data/Facts.lua` will
-carry its own licence line: the rows derived from the Classic Era tables are GPL 3.0.
+needs written permission first. The compiled item data, `Jettison_Data/Facts.lua`, is derived from
+the CMaNGOS Classic content database and is distributed under GPL 3.0; its source is at
+[itemtree-era-sources](https://github.com/Rockjaw-Bonesnapper-Co/itemtree-era-sources). The licence
+texts and notices for the third party material are in LICENSES.
 
 Jettison is not affiliated with Blizzard Entertainment. World of Warcraft is a trademark of
 Blizzard Entertainment, Inc. No Blizzard artwork is included.

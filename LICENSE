@@ -37,11 +37,16 @@ OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWA
 Third party material
 --------------------
 
-The data folder. Jettison ships with a second folder, Jettison_Data, and the add-on including that
-folder falls under the terms above, with one exception: Jettison_Data/Facts.lua carries its own
-licence line in its header. Where that file holds rows derived from the Classic Era tables (the
-CMaNGOS lineage), it is distributed under the GNU General Public License, version 3.0, the same
-standing as ItemTree's EraSources.lua; its header says which applies.
+Jettison_Data/Facts.lua (in the Jettison_Data folder, which a release ships beside Jettison). This
+file is compiled from the CMaNGOS Classic content database (github.com/cmangos/classic-db), which
+is licensed under the GNU General Public License version 3, so this one file alone is distributed
+under GPL-3.0 rather than the terms above. It also reads pfQuest's vanilla database
+(github.com/shagu/pfQuest, MIT licensed) for area ids and nothing else. The full GPL-3.0 text is
+in LICENSES/GPL-3.0.txt and CMaNGOS's own copyright notice is in LICENSES/cmangos-COPYRIGHT.md.
+Corresponding Source, as GPL-3.0 section 6(d) asks:
+https://github.com/Rockjaw-Bonesnapper-Co/itemtree-era-sources (the compiler, the pinned inputs and
+these notices). Everything else in Jettison, the rest of the Jettison_Data folder included, is all
+rights reserved under the terms above.
 
 Blizzard's material. World of Warcraft, its spell, class and race names, the numbers behind
 them, and any in-client texture path, atlas name or interface function this add-on refers to
