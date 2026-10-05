@@ -1,0 +1,49 @@
+Jettison
+Copyright (c) 2026 Rockjaw Bonesnapper Co. All rights reserved.
+
+The contents of this add-on, excluding the third party material named below, fall under the above
+copyright. The author grants the following permissions.
+
+  * Permission to download, install, run and read Jettison for personal use, without restriction,
+    and to keep as many copies and backups of it as you find useful.
+
+  * Permission to modify your own copy of Jettison for your own use, and to keep those
+    modifications across updates.
+
+  * Permission to include Jettison in a user interface compilation or add-on pack distributed on
+    CurseForge, Wago Addons or WoWInterface, as long as it is included whole and unmodified, with
+    this file, and credited to its author.
+
+  * Uploading Jettison to CurseForge, Wago Addons or WoWInterface authorises those sites, and the
+    add-on managers that install from them, to host and distribute it under their own terms.
+    Nothing here is intended to cut across that.
+
+  * Jettison may not otherwise be redistributed, in whole or in part, modified or unmodified,
+    without prior written permission from the author. That includes uploading it on its own,
+    publishing a modified version of it, and folding any part of it into another work.
+
+  * The name Jettison and the name of its author may not be used to promote or endorse another
+    work without prior written permission.
+
+Every file in Jettison is plain, readable Lua text. None of it is compiled, packed or obfuscated,
+so the add-on you install is the add-on you can read.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT
+NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT
+OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Third party material
+--------------------
+
+The data folder. Jettison ships with a second folder, Jettison_Data, and the add-on including that
+folder falls under the terms above, with one exception: Jettison_Data/Facts.lua carries its own
+licence line in its header. Where that file holds rows derived from the Classic Era tables (the
+CMaNGOS lineage), it is distributed under the GNU General Public License, version 3.0, the same
+standing as ItemTree's EraSources.lua; its header says which applies.
+
+Blizzard's material. World of Warcraft, its spell, class and race names, the numbers behind
+them, and any in-client texture path, atlas name or interface function this add-on refers to
+belong to Blizzard Entertainment, Inc. Jettison ships no Blizzard artwork and claims no
+ownership of Blizzard's data.

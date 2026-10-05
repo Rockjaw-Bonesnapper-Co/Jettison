@@ -1,0 +1,36 @@
+name: Bug report
+description: Something is broken or behaves unexpectedly.
+title: "bug: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: input
+    id: build
+    attributes:
+      label: Game build
+      description: The build shown by /jettison probe or in the game's system menu.
+      placeholder: "1.60.1.69913"
+  - type: input
+    id: version
+    attributes:
+      label: Jettison version
+      placeholder: "0.1.0"
+  - type: textarea
+    id: error
+    attributes:
+      label: Lua error or log
+      description: Paste the full error text. Remove character and realm names first.
+      render: text
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy
+      options:
+        - label: This report contains no character names, realm names or account details.
+          required: true
